@@ -36,20 +36,29 @@ body {
 }
 
 .search-box {
-    border: 1px solid green;
+    display: inline;
+    border: 1px solid lightgrey;
     border-radius: 25px;
-    width: 40%;
+    width: 550px;
+    height: 40px;
 }
 
-.lens {
-    height: 20px;
-    width: 20px;
-    padding: 5px;
+.search-box-icons {
+    padding: 9px;
+    color: lightgray;
 }
 
-.search-buttons {
-    padding: 10px;
+.search-buttons-div {
+    padding: 50px;
+    float: right;
 }
+ .s-button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+ }
 
 .inputtextbox {
     border: none;
