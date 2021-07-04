@@ -1,3 +1,8 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
 .container {
     height: 100vh;
     display: flex;
@@ -7,9 +12,9 @@
 
 .top {
     align-content: flex-start;
+    height: 40px;
     margin: 0px;
     padding: 0px;
-    background-color: blue;
 }
 
 .content {
@@ -48,4 +53,36 @@
 
 .inputtextbox {
     border: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+li {
+    display: inline;  
+    padding-left: 10px;  
+    padding-right: 10px;  
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+li.right{
+    float: right;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.bluebox {
+    background-color: rgb(66,133,244);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
 }
